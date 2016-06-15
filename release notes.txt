@@ -1,0 +1,52 @@
+March 31, 2016 [Release]
+
+Add-In features:
+
+- Remove all attachments from selected emails using the ribbon button or context menu button.
+- Save all attachments from selected emails to a selected folder using the ribbon button or 
+context menu button.
+- Save email in an Outlook folder upon sending.
+
+
+
+April 5, 2016
+
+- Notifies how many emails out of the selected had their attachments removed
+- Notifies how many emails out of the selected had their attachments saved
+- Notifies if there are no attachments to be saved when trying to remove attachments from
+emails that don't have attachments
+- Fixed bug where sometimes attachments wouldn't be removed
+- Changed setup file name
+- Changed company name
+
+
+
+April 6, 2016
+
+- When removing attachments, all attachment names will be appended to one line instead of
+a new line per attachment
+- Fixed bug where nothing would happen when trying to remove attachments from emails using
+'Remove Attachments' from the context menu (was occuring on both emails with and without
+attachments)
+- Fixed a bug where the notification would show the incorrect amount of emails that had their
+attachments saved
+- Simplified the notification for removing attachments
+
+
+
+April 11, 2016
+
+- Fixed bug where dialog would not always show when removing attachments from multiple emails
+that had and didn't have attachments
+
+
+
+April 12, 2016
+- Fixed bug where including a non-email item in a selection would break the operation
+- Saving attachments from emails with no attachments will no longer prompt to choose a 
+directory
+- Installer now installs files to Program Files(x86)
+
+
+June 15, 2016
+- Added confirmation dialog when removing attachments
