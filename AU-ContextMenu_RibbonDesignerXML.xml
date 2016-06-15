@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <contextMenus>
+    <contextMenu idMso ="ContextMenuMailItem">
+      <menuSeparator id="attachmentUtility"/>
+      <button id="remove" label="Remove Attachments" onAction="removeAttachments_Click"/>
+      <button id="save" label="Save Attachments" onAction="saveAttachments_Click"/>
+    </contextMenu>
+    <contextMenu idMso ="ContextMenuMultipleItems">
+      <menuSeparator id="attachmentUtility_m"/>
+      <button id="remove_m" label="Remove Attachments" onAction="removeAttachments_Click"/>
+      <button id="save_m" label="Save Attachments" onAction="saveAttachments_Click"/>
+    </contextMenu>
+  </contextMenus>
+</customUI>
+
